@@ -24,7 +24,7 @@ Quiz={
 print("Europeans Capital Quiz!\n")
 
 #Loop through the dictionary and ask each question
-for country, capital in quiz.items():
+for country, capital in Quiz.items():
     answer=input(f"What is the capital of {country}? ")
 
     #Case insensitive check
@@ -32,4 +32,4 @@ for country, capital in quiz.items():
         print("Correct!\n")
     else:
         print(f"Wrong. The capital of {country} is {capital}.\n")
-        
+
